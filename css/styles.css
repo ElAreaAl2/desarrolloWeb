@@ -1,0 +1,89 @@
+/*Reset*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(102, 214, 177, 0.911);
+}
+
+header h1{
+    padding: 10px;
+    position: relative;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    left: 40px;
+}
+
+.menu{
+    border-top: 2px solid gray;
+}
+
+.menu__lista a{
+    /* retira el subrayado de los links (a) */
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li{
+    
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px gray;
+    border-radius: 50px; 
+    background-color: rgb(192, 179, 179);
+}
+
+body{
+    background-color: beige;
+}
+
+main{
+    font-family: 'Merriweather', serif;
+}
+
+main img{
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+
+.sub1{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.parrafo1{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sub2{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.parrafo2{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+footer{
+    border-top: 2px solid gray;
+    background-color: rgba(102, 214, 177, 0.911);
+    font-family: 'Merriweather', serif;
+}
+
+
+footer h3{
+    display: inline-block;
+    margin: 15px;
+}
